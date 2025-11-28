@@ -1,0 +1,10 @@
+arr = [3, 7, 2, 9, 5]
+target=11
+found=False
+for i in range(len(arr)):
+    if arr[i]==target:
+        found=True
+        print("found at =",i)
+        break
+if found==False:
+    print("not found")
